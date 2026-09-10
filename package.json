@@ -1,0 +1,7 @@
+{
+  "name": "topo-contour-terrain",
+  "private": true,
+  "scripts": {
+    "build": "node screenhouse-build.mjs"
+  }
+}
