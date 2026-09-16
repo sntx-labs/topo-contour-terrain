@@ -294,8 +294,11 @@ class TopoTerrain {
 
     setupControls() {
         /* globals SHPanel */
-        const panel = new SHPanel(document.getElementById('control-panel'));
-        const p = this.params;
+        const panel = LabsPanels.adapt(new SHPanel(document.getElementById('control-panel')));
+        const p = this.params;const defaults=structuredClone(p);
+        const session=panel.folder('Session');
+        session.button('Copy JSON',()=>LabsPanels.copy('topo-contour-terrain',p,session));
+        session.button('Reset all',()=>{Object.assign(p,defaults);panel.refresh(true);this.setTileImage('crt_tile.png');this.setupTileOverlay()});
 
         const terrain = panel.folder('Terrain');
         terrain.slider(p, 'contourCount', { min: 5, max: 80, step: 1 })
@@ -339,7 +342,7 @@ class TopoTerrain {
         tile.file({ accept: 'image/*', label: 'Upload tile' }).on('change', (e) => {
             if (e.file) {
                 const url = URL.createObjectURL(e.file);
-                this.setTileImage(url);
+                this.params.tileImageName=e.file.name;this.setTileImage(url);
             }
         });
         tile.slider(p, 'tileSize', { min: 16, max: 512, step: 1, label: 'Tile size' })
