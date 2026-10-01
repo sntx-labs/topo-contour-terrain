@@ -92,24 +92,24 @@ class TopoTerrain {
         this.params = {
             contourCount: 80,
             lineThickness: 1,
-            elevationScale: 0.93,
-            glowIntensity: 0.54,
-            scrollSpeed: 0.055,
+            elevationScale: 1,
+            glowIntensity: 0.96,
+            scrollSpeed: 0.027,
             lineLowColor: '#ff2080',
             lineHighColor: '#00ff40',
             crtBarrel: 0.019,
-            crtChromatic: 0.0069,
+            crtChromatic: 0.0056,
             crtScanline: 0.17,
-            crtVignette: 1.44,
+            crtVignette: 0.73,
             crtFlicker: 0.034,
             crtBandSpeed: 0.103,
-            exposure: 1.46,
-            contrast: 1.32,
-            whiteBalance: 0.0,
-            tileSize: 162,
+            exposure: 1.35,
+            contrast: 1.78,
+            whiteBalance: 0,
+            tileSize: 293,
             tileBlend: 'overlay',
-            tileOpacity: 0.52,
-            tileContrast: 1.97
+            tileOpacity: 0.3,
+            tileContrast: 2.6
         };
         
         this.init();
