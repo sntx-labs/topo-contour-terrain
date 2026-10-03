@@ -3,9 +3,9 @@
   "slug": "topo-contour-terrain",
   "repository": "https://github.com/sntx-labs/topo-contour-terrain",
   "liveUrl": "https://labs.sntx.co/experiments/topo-contour-terrain/",
-  "sourceCommit": "d7629492dbf1aa0b44345ecc7585355546c11df2",
+  "sourceCommit": "687312a8e5e078ca34e6afee736d305442150125",
   "importedAt": "2026-09-26",
   "upstream": null,
   "authoringSnapshot": null,
-  "updatedAt": "2026-10-01"
+  "updatedAt": "2026-10-03"
 }
