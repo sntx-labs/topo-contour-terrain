@@ -7,5 +7,7 @@
   "importedAt": "2026-09-26",
   "upstream": null,
   "authoringSnapshot": null,
-  "updatedAt": "2026-10-03"
+  "updatedAt": "2026-10-03",
+  "thumbnail": "public/images/work/topo-contour-terrain.png",
+  "thumbnailSourceCommit": "61e24c43f736ab86d2c828dff03c104286031549"
 }

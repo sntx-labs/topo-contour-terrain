@@ -32,3 +32,7 @@ Keep this repository private until the owner approves publication. No new blanke
 The running website is still deployed separately through Sites. Pushing to this repository does not redeploy or change its public URL.
 
 To prepare runtime assets for the separate authoring snapshot, run `npm run labs:authoring`, then follow the printed npm install/build instructions. The published snapshot remains the reference for current Labs behavior.
+
+## Gallery thumbnail
+
+The owner-supplied CRT map image is retained at `public/images/work/topo-contour-terrain.png`. Published to the Labs gallery in version 68, source commit `61e24c43f736ab86d2c828dff03c104286031549`. The experience runtime is unchanged by this thumbnail update.
