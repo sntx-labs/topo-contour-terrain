@@ -1,6 +1,6 @@
 # Topo Contour Terrain
 
-Syntax Labs experiment. This repository is private while being prepared for release.
+Syntax Labs experiment. Public source repository for the linked live experience.
 
 [Live experience](https://labs.sntx.co/experiments/topo-contour-terrain/) · [Run and edit this project](LABS.md)
 
